@@ -36,8 +36,8 @@ function findingf() {
                         else {
                             var i42 = "верхней";
                         }
-                    document.getElementById('url_page').href = "./page.html?"+i5+"-"+i42+"-"+i3+"-"+i2+"-"+textf;
-                    return document.getElementById('url_page').textContent = "Ваш текст найден на "+"ряду "+i5+", полке "+i4+", номере книги "+i3+", странице "+i2;
+                    document.getElementById('url_page').href = "./page.html?"+i5+"-"+i4+"-"+i3+"-"+i2+"-"+textf;
+                    return document.getElementById('url_page').textContent = "Ваш текст найден на "+"ряду "+i5+", полке "+i42+", номере книги "+i3+", странице "+i2;
                 }
                 else
                 {
